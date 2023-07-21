@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Organizador de Horario de Comida</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <h1 class="title">Organizador de Horario de Comida</h1>
+  <div class="container">
+    <div class="column">
+      <label for="nombreUsuario">Nombre de Usuario:</label>
+      <input type="text" id="nombreUsuario" placeholder="Agrega un nombre de usuario" />
+      <button class="button" onclick="agregarUsuario()">Agregar Usuario</button>
+      <button class="eliminar" onclick="eliminarUsuario()">Eliminar Usuario</button>
+      <label for="usuarioEliminar">Usuario:</label>
+      <select id="usuarioEliminar">
+        <option value="" disabled selected hidden>Usuario</option>
+      </select>
+      <label for="horario">Horario:</label>
+      <select id="horario">
+        <option value="" disabled selected hidden>Horario</option>
+        <option value="12pm - 1pm">12pm - 1pm</option>
+        <option value="12:30pm - 1:30pm">12:30pm - 1:30pm</option>
+        <option value="1pm - 2pm">1pm - 2pm</option>
+        <option value="1:30pm - 2:30pm">1:30pm - 2:30pm</option>
+        <option value="2pm - 3pm">2pm - 3pm</option>
+        <option value="2:30pm - 3:30pm">2:30pm - 3:30pm</option>
+        <option value="3pm - 4pm">3pm - 4pm</option>
+        <option value="3:30pm - 4:30pm">3:30pm - 4:30pm</option>
+      </select>
+      <button class="button" onclick="agregarHorario()">Agregar</button>
+    </div>
+    <div class="table-container">
+      <table id="tablaHorario">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <!-- Botón Generar -->
+    <button class="generar-button" onclick="guardarHorarioEnFirebase()">
+      Generar
+      <i class="fas fa-arrow-right"></i>
+    </button>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+
+body {
+  background: #444654;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+th {
+  margin-bottom: 2px; 
+  background-color: #1E88E5;
+  color: white;
+}
+
+td.name-cell,
+td.horario-cell {
+  color: white;
+}
+
+td.horario-cell {
+  background-color: #f8bbd0;
+}
+
+td.horario-cell.blue {
+  background-color: #bbdefb;
+}
+
+td.horario-cell.yellow {
+  background-color: #fff9c4;
+}
+
+td.horario-cell.green {
+  background-color: #c8e6c9;
+}
+
+td.horario-cell.turquoise {
+  background-color: #e0f7fa;
+}
+
+td.horario-cell.pink {
+  background-color: #f8bbd0;
+}
+
+td.horario-cell.orange {
+  background-color: #ffe0b2;
+}
+
+td.horario-cell.purple {
+  background-color: #e1bee7;
+}
+
+
+.name-cell {
+  background-color: #444654;
+  color: white;
+}
+
+
+td.horario-cell {
+  color: black;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.eliminar {
+  background-color: #FF5722;
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.eliminar:hover {
+  background-color: #E64A19;
+  transform: scale(1.05);
+}
+
+#usuarioEliminar,
+#horario,
+#nombreUsuario {
+  margin: 5px;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+#usuarioEliminar,
+#horario {
+  background-color: #444654;
+  color: white;
+}
+
+#horario {
+  margin-left: 10px;
+}
+
+#tablaContainer {
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.agregar-btn {
+  background-color: #64b5f6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+}
+
+.agregar-btn:hover {
+  background-color: #4f9ad8;
+  transform: scale(1.05);
+}
+
+.generar-button {
+  background-color: #64b5f6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.2), 0 4px 8px rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.generar-button:hover {
+  background-color: #4f9ad8;
+  transform: scale(1.1);
+}
+
+.icono-flecha {
+  margin-left: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: center;
+  border: 1px solid transparent; 
+  border-radius: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-top: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: center;
+  border: 1px solid transparent; 
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+tr,
+td {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+th {
+  margin-bottom: 2px;
+}
+
+
+tr,
+td {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: #444654;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
